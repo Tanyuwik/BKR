@@ -211,6 +211,154 @@ li {
 
 /* ======== */
 
+/* ==== RECLAM ====*/
+
+.reclam {
+  display: flex;
+  margin: 10% 0 10% 0;
+  flex-direction: column;
+  justify-content: center;
+  height: 480px;
+  background-image: url("./image/Bitmap3.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.reclamContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reclamContainer p {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.reclamContainer h2 {
+  width: 473px;
+  font-family: "Ultra";
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #fff;
+  margin-top: 1%;
+}
+
+/* ======== */
+
+/* ==== CONTACT ====*/
+
+.contactInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactInformation p {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #171b1b;
+  margin-bottom: 2%;
+}
+
+.contactInformation h2 {
+  font-family: "Ultra";
+  font-size: 56px;
+  line-height: 64px;
+  color: #171b1b;
+  margin-bottom: 5%;
+}
+
+.containerContact {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.address,
+.phone {
+  list-style-type: none;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000;
+}
+
+.contactUS {
+  margin: 5% 0 5% 0;
+  width: 170px;
+  height: 48px;
+  background-color: #fff;
+  border: 1px solid gray;
+  color: #171b1b;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contactUS:hover {
+  background-color: #fbb65f;
+  transition: 0.5s;
+  color: #fff;
+  border: none;
+}
+
+/* ======== */
+
+/* ==== FOOTER ====*/
+
+footer {
+  display: flex;
+  background-color: #171b1b;
+  height: 432px;
+}
+.footerContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+
+.footerContainer h2 {
+  font-family: "Ultra";
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.menu,
+.service,
+.social {
+  list-style-type: none;
+  color: #fff;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.clik {
+  width: 38px;
+  cursor: pointer;
+}
+
+/* ======== */
+
 /* ==== MEDIA ====*/
 
 @media (max-width: 768px) {
