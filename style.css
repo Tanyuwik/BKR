@@ -1,0 +1,211 @@
+/* ==== HEADER ==== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  background-color: #fff;
+  font-family: "Ultra", serif;
+  color: #000;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
+
+.navigationList {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+.headerNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  width: 290px;
+  height: 48px;
+  text-decoration: none;
+  font-family: "Sans", sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.headerNav:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.btnContact {
+  border: none;
+  width: 138px;
+  height: 48px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btnContact:hover {
+  background-color: #f9bf77;
+  color: #000;
+  transition: 0.5s;
+}
+/* ======== */
+
+/* ==== MAIN ==== */
+
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("./image/spikelets.svg");
+  background-repeat: no-repeat;
+}
+
+.headerInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 791px;
+  background: rgba(231, 212, 190, 0.44);
+}
+
+.product {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.headerInformation h2 {
+  width: 467px;
+  height: 240px;
+  font-family: "Ultra";
+  font-size: 72px;
+}
+
+.textInfo {
+  margin-top: 60px;
+  width: 470px;
+  font-family: "DM Sans";
+  line-height: 32px;
+  font-weight: 400;
+  font-size: 20px;
+}
+/* ======== */
+
+/* ==== ABOUT US ==== */
+.aboutUs {
+  display: flex;
+  justify-content: space-around;
+  height: 790px;
+  margin-top: 50px;
+}
+
+.imagesSlider {
+  width: 50%;
+  /*border: 2px solid black;*/
+  background-image: url("./image/Shape.png");
+  background-repeat: no-repeat;
+  background-position: 160px 242px;
+}
+
+.bitmap {
+  position: absolute;
+  width: 370px;
+  height: 304px;
+  left: 135px;
+  top: 1040px;
+}
+
+.bitmap2 {
+  position: absolute;
+  width: 411px;
+  height: 391px;
+  left: 226px;
+  top: 1276px;
+}
+
+.arrowUp {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 735px;
+  top: 1325px;
+  cursor: pointer;
+}
+
+.arrowDown {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 735px;
+  top: 1386px;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.content h2 {
+  width: 570px;
+  font-family: "Ultra";
+  line-height: 64px;
+  color: #171b1b;
+  font-size: 56px;
+}
+
+.content .textInfo {
+  font-family: "Oswald";
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #171b1b;
+  margin-bottom: 20px;
+}
+
+.textAfterNumber {
+  width: 128px;
+  font-family: "Oswald";
+  font-size: 24px;
+  line-height: 32px;
+  color: #171b1b;
+}
+
+.textContent {
+  width: 370px;
+  font-family: "DM Sans";
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.496405);
+}
+
+.listContent {
+  font-family: "DM Sans";
+  font-size: 16px;
+  line-height: 32px;
+  color: #171b1b;
+}
+
+.contentAfterHeader {
+  padding-left: 5%;
+}
+/* ======== */
